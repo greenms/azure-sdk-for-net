@@ -61,7 +61,8 @@ parameters:
     Windows_NetCore_ProjectRefAzureClients:
       OSVmImage: "windows-2019"
       TestTargetFramework: netcoreapp2.1
-      AdditionalTestArguments: "/p:UseProjectReferenceToAzureClients=true"
+      #AdditionalTestArguments: "/p:UseProjectReferenceToAzureClients=true"
+      #AdditionalTestArguments: foobar
     #Windows_NetFramework:
     #  OSVmImage: "windows-2019"
     #  TestTargetFramework: net461
